@@ -1,0 +1,44 @@
+/*
++----------------------------------------------------------------+
+|																							|
+|	WordPress Plugin: WP-TaxRatings 1.00								|
+|	Copyright (c) 2012 Aurélien Capdecomme									|
+|																							|
+|	File Written By:																	|
+|	- Aurélien Capdecomme															|
+|	- http://menthefraiche.com															|
+|																							|
+|	File Information:																	|
+|	- Taxonomy Ratings CSS File															|
+|	- wp-content/plugins/wp-taxratings/taxratings-css.css			|
+|																							|
++----------------------------------------------------------------+
+*/
+
+
+.tax-ratings {
+	width:100%;
+	filter: alpha(opacity=100);
+	-moz-opacity: 1;
+	opacity: 1;
+	/* background-color: #ffffff; */
+}
+.tax-ratings-loading {
+	display: none;
+	height: 16px;
+	text-align: left;
+}
+.tax-ratings-image {
+	border: 0px;
+}
+.tax-ratings img, .tax-ratings-loading img, .tax-ratings-image img {
+	border: 0px;
+	padding: 0px;
+	margin: 0px;
+}
+.tax-ratings-text {
+}
+.tax-ratings-comment-author {
+	font-weight: normal;
+	font-style: italic;
+}
